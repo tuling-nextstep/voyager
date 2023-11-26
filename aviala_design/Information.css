@@ -1,0 +1,71 @@
+/* TypeFace */
+/* System Text Font (Defaut: MiSans) */
+@font-face {
+    font-family: Text;
+    src: url("./Fonts/Text.ttf");
+}
+
+/* System Display Font (Defaut: Manrope) */
+@font-face {
+    font-family: Display;
+    src: url("./Fonts/Display.ttf");
+}
+
+@font-face {
+    font-family: Clock;
+    src: url("./Fonts/clock/AlimamaFangYuanTiVF-Thin.ttf");
+}
+
+/* System Terminal Font (Defaut: Monaspace) */
+@font-face {
+    font-family: Terminal;
+    src: url("./Fonts/terminal/MonaspaceNeon.ttf");
+}
+
+h1 {
+    font-family: Text;
+    font-weight: 300;
+    font-size: 30px;
+    color: var(--textColor);
+    margin: 0;
+}
+
+h2 {
+    font-family: Text;
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--textColor);
+    margin: 0;
+}
+
+h3 {
+    font-family: Text;
+    font-weight: 300;
+    font-size: 20px;
+    color: var(--textColor);
+    margin: 0;
+}
+
+h4 {
+    font-family: Text;
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--textColor);
+    margin: 0;
+}
+
+h5 {
+    font-family: Text;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--annotateColor);
+    margin: 0;
+}
+
+p {
+    font-family: Text;
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--textColor);
+    margin: 0;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Tuling Home</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./aviala_design/Container.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./aviala_design/Information.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./aviala_design/Input.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./aviala_design/Interactive.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./system//voyager/univar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./main/style.css'>
+</head>
+<script>
+    //禁用右键菜单
+    document.addEventListener('contextmenu', function (e) {
+        e.preventDefault();
+    }) 
+</script>
+</head>
+
+<body>
+    <div class="deviceBox" onclick="window.open('device_running.html','_self')">
+
+    </div>
+    <div class="Container">
+        <h3>Tuling Workstartion</h3>
+        <p>Voyager Beta 0.1</p>
+    </div>
+    Node.js <span id="node-version">
+    Chromium <span id="chrome-version">
+    Electron <span id="electron-version">
+    <script src="./renderer.js"></script>
+  </body>
+</html>
+</body>

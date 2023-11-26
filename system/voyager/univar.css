@@ -1,0 +1,38 @@
+@media (prefers-color-scheme: dark) {
+    :root {
+        --windowBackground: #14141488; 
+        --SystemThemeColor: #14141488;
+        --SystemHoverThemeColor: #141414dd;
+        --textColor: #fffffF;
+        --annotateColor: #FFFFFF88;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    :root {
+        --windowBackground: #ffffff; 
+        --SystemThemeColor: #ffffff88;
+        --SystemHoverThemeColor: #ffffffdd;
+        --textColor: #141414;
+        --annotateColor: #14141488;
+    }
+}
+
+:root {
+    /*统一调色盘*/
+    --UserThemeColor: #426FF5;
+    --SystemWarningColor: #FA483E;
+    /*系统动画变量*/
+    --animationBasic1: 150ms ease-in-out;
+    --animationBasic2: 250ms cubic-bezier(0.075, 0.82, 0.165, 1);
+    /*统一窗口效果*/
+    --WindowsShadowBasic: drop-shadow(0px 8px 25px #14141488);
+    --WindowFilterBasic: blur(15px);
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    /* gap: 6%; */
+}

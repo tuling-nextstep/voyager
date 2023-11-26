@@ -1,0 +1,30 @@
+#window {
+  position: absolute;
+  z-index: 9;
+  background-color: var(--SystemThemeColor);
+  backdrop-filter: var(--WindowFilterBasic);
+  text-align: center;
+  border-radius: 8px;
+  resize: both;
+  overflow: auto;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#windowheader {
+  padding: 10px;
+  cursor: default;
+  z-index: 10;
+  color: #fff;
+}
+
+iframe#windowFrame {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  overflow-clip-margin: content-box !important;
+  overflow: clip !important;
+  border-width: 0;
+  border-style: inset;
+  border-color: initial;
+  border-image: initial;
+}

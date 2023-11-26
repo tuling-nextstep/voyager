@@ -1,0 +1,56 @@
+{
+  "name": "tulinghome",
+  "version": "24.0.0",
+  "main": "main.js",
+  "license": "MIT",
+  "author": "Reimagine Studio",
+  "description": "tulinghome",
+  "productName": "Tuling Home",
+  "icon": "root/app_icon.png",
+  "scripts": {
+    "start": "electron-forge start",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0",
+    "mica-electron": "^1.5.3"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.1.0",
+    "@electron-forge/maker-deb": "^7.1.0",
+    "@electron-forge/maker-rpm": "^7.1.0",
+    "@electron-forge/maker-squirrel": "^7.1.0",
+    "@electron-forge/maker-zip": "^7.1.0",
+    "@electron-forge/plugin-auto-unpack-natives": "^7.1.0",
+    "electron": "^27.1.0"
+  },
+  "win": {
+    "target": "nsis",
+    "icon": "root/app_icon.ico",
+    "publisherName": "Reimagine Studio",
+    "certificateFile": "root/certificate.pfx",
+    "certificatePassword": "password123"
+  },
+  "mac": {
+    "target": "dmg",
+    "icon": "root/app_icon.icns",
+    "category": "tulinghome.app-category.utilities",
+    "extendInfo": {
+      "NSAppTransportSecurity": {
+        "NSAllowsArbitraryLoads": true
+      }
+    }
+  },
+  "linux": {
+    "target": "deb",
+    "icon": "root/app_icon.png",
+    "category": "Utility",
+    "desktop": {
+      "Name": "Tuling Home",
+      "Comment": "My Electron App",
+      "Exec": "./MyElectronApp",
+      "Terminal": false
+    }
+  }
+}
