@@ -14,4 +14,4 @@ Voyager 是一个全新的基于 Web 的概念操作系统。
 #### [飞书群](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=21drce32-eb2f-4250-9f44-3f3a9ccc60e5)
 你可以使用飞书或 Lark 加入此群组并与我们交流。
   
-Not only in Chinese, but also here has[English ver.](README.md)
+Not only in Chinese, but also here has [English ver.](README.md)
