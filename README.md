@@ -3,7 +3,7 @@
 ## What's Voyager?
 Voyager is a brand-new conceptual operating system based on web.
 ## How to used？
-#### 1. Pull the source code through git
+#### 1. Clone the source code through git
    `git clone https://github.com/tuling-nextstep/voyager/`
 #### 2. Reinstall electron and run the electron app  
    `yarn add electron` or `pnpm add electron`  
