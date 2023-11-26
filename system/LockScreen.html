@@ -6,10 +6,10 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>Page Title</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./LockScreen/Style.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='../aviala_design/Information.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./voyager/Notification.css'>
-    <link rel='stylesheet' type='text/css' media='screen' href='./voyager/univar.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./System/LockScreen/Style.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./Aviala_Design/Information.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./System/Notification.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='./System/univar.css'>
     <script>//跳转登录页
         function GotoLogin() {
             window.location.href = "Desktop.html";
@@ -28,9 +28,9 @@
         <!--通知中心-->
         <div class="notificationBox">
             <div class="main">
-                <img src="../Themes/AppIcon/TestApp.png" width="24px" height="24px">
+                <img src="./Themes/AppIcon/TestApp.png" width="24px" height="24px">
                 <div class="textBox">
-                    <n-h>欢迎回到 Despina，请不吝反馈，帮助我们打造更好的 Despina。</n-h>
+                    <n-h>感谢您使用 Despina，请协助我们找出漏洞，优化系统。</n-h>
                     <n-p>Despina 系统服务</n-p>
                 </div>
             </div>
@@ -58,9 +58,9 @@
 
         <div class="notificationBox">
             <div class="main">
-                <img src="../Themes/AppIcon/TestApp.png" width="24px" height="24px">
+                <img src="./Themes/AppIcon/TestApp.png" width="24px" height="24px">
                 <div class="textBox">
-                    <n-h>欢迎回到 Despina，请不吝反馈，帮助我们打造更好的 Despina。</n-h>
+                    <n-h>您的浏览器&设备可以使用 Despina 系统服务。</n-h>
                     <n-p>Despina 系统服务</n-p>
                 </div>
             </div>
@@ -87,9 +87,9 @@
         </div>
         <div class="notificationBox">
             <div class="main">
-                <img src="../Themes/AppIcon/TestApp.png" width="24px" height="24px">
+                <img src="./Themes/AppIcon/TestApp.png" width="24px" height="24px">
                 <div class="textBox">
-                    <n-h>欢迎回到 Despina，请不吝反馈，帮助我们打造更好的 Despina。</n-h>
+                    <n-h>您的 Internet 服务正常。</n-h>
                     <n-p>Despina 系统服务</n-p>
                 </div>
             </div>
@@ -116,9 +116,9 @@
         </div>
         <div class="notificationBox">
             <div class="main">
-                <img src="../Themes/AppIcon/TestApp.png" width="24px" height="24px">
+                <img src="./Themes/AppIcon/TestApp.png" width="24px" height="24px">
                 <div class="textBox">
-                    <n-h>欢迎回到 Despina，请不吝反馈，帮助我们打造更好的 Despina。</n-h>
+                    <n-h>为了如果您不是 Despina 开发者，那我们不想让您深入研究。</n-h>
                     <n-p>Despina 系统服务</n-p>
                 </div>
             </div>
@@ -144,17 +144,7 @@
             </div>
         </div>
     </div>
-    <button class="timeBox" id="loginButton">
-        <script>
-            document.getElementById("okButton").addEventListener(
-                "click",
-                function () {
-                    document.getElementById("welcome").hidden = true;
-                    document.getElementById("awesome").hidden = false;
-                },
-                false,
-            );
-        </script>
+    <div class="timeBox">
         <div class="time">
             <!--时钟-->
             <script>
@@ -181,22 +171,19 @@
             </script>
             <!--显示日期与时间-->
             <div class="clock">
-                <div id="clock1">18:25</div>
-                <div id="clock2">18:25</div>
+                <div id="clock1">18</div>
+                <div id="clock2">25</div>
             </div>
             <div class="date">
-                <div id="date1">2023 年 10 月 25 日</div>
-                <div id="date2">2023 年 10 月 25 日</div>
+                <div id="date1">2023 年</div>
+                <div id="date2">10 月 25 日</div>
             </div>
         </div>
         <div class="User">
-            <img class="userphoto" src="../Users/000000/uesrphoto.jpg" width="38px" height="38px">
-            <h>欢迎回来，安龙 ΛnLong</h>
+            <img class="userphoto" src="userphoto.png" width="38px" height="38px">
+            <h>欢迎回来，用户名 UserName</h>
             <p>轻点屏幕以解锁</p>
         </div>
-    </button>
-    <div class="panel" id="welcome">
-        <iframe width="100%" height="30%" src="./login.html"></iframe>
     </div>
 </body>
 
