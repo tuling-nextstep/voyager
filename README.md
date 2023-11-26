@@ -1,4 +1,4 @@
-<img src="http://xctmit.fun/tuling_voyager.png" width="50%" height="50%">
+<img src="http://xctmit.fun/tuling_voyager.png" width="65%" height="65%">
 
 ## What's Voyager?
 Voyager is a brand-new conceptual operating system based on web.
