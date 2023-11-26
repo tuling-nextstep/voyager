@@ -1,4 +1,5 @@
-![Tuling Voyager](README/tuling_voyager.png)
+<img src="README/tuling_voyager.png" width="50%" height="50%">
+
 ## What's Voyager?
 Voyager is a brand-new conceptual operating system based on web.
 ## How should I use it?
