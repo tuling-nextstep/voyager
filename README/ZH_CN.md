@@ -1,4 +1,4 @@
-<img src="http://xctmit.fun/tuling_voyager.png" alt="Tuling Voyager" width="65%" height="65%">
+<img src="http://www.xctmit.fun/woyager3.png" alt="Tuling Voyager" width="65%" height="65%">
 
 ## 什么是 Voyager?
 Voyager 是一个全新的基于 Web 的概念操作系统。
