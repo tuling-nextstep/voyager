@@ -1,4 +1,4 @@
-# ![Tuling Voyager](tuling_voyager.png)
+<img src="tuling_voyager.png" alt="Tuling Voyager" width="50%" height="50%">
 
 ## 什么是 Voyager?
 Voyager 是一个全新的基于 Web 的概念操作系统。
