@@ -11,7 +11,7 @@ Voyager is a brand-new conceptual operating system based on web.
 #### 3. Debug it
    `yarn start` or `pnpm start`
 ## I want to learn more
-#### [Feishu Group](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=21drce32-eb2f-4250-9f44-3f3a9ccc60e5)
+### [<img src="http://xctmit.fun/lark.png" alt="Lark Logo" width="24px" height="24px"><div>Feishu Group</div>](https://applink.feishu.cn/client/chat/chatter/add_by_link?link_token=21drce32-eb2f-4250-9f44-3f3a9ccc60e5)
 We hope that you can provide substantive feedback after experiencing our product, so you can use Feishu or Lark to join this group and communicate with us.
 Our product currently cannot choose a language, only Chinese mode.
 But soon, English mode will come! Just like an angel. Let's look forward to it!
