@@ -1,3 +1,7 @@
+_The version in this repository has been deprecated._
+
+_In the near future, you will see our new refactoring version._
+
 <img src="http://www.xctmit.fun/tuling_voyager.png" width="65%" height="65%">
 
 ## What's Voyager?
